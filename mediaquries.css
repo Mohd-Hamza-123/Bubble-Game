@@ -1,0 +1,66 @@
+@media screen and (max-width:400px) {
+    .panel {
+        width: 95%;
+        height: 92%;
+        /* border-radius: 10px; */
+        overflow: hidden;
+        border-radius: none !important;
+    }
+
+    .top_panel {
+        width: 100%;
+        height: 50px;
+        background-color: rgb(255, 94, 0);
+        align-items: center;
+        justify-content: space-around;
+        padding: 0px 5%;
+        gap: 10px;
+        margin-bottom: 8px;
+        border-radius: none;
+
+    }
+
+    .elements span {
+        color: white;
+        font-weight: 700;
+        font-size: 14px;
+    }
+
+    .elements .box {
+        background-color: #fff;
+        font-weight: 600;
+        font-size: 20px;
+        border-radius: 4px;
+        color: rgb(255, 72, 0);
+        width: 40px;
+        text-align: center;
+        padding: 3px 0px;
+    }
+
+    .bubble {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(255, 72, 0);
+        width: 29px;
+        height: 29px;
+        border-radius: 50%;
+        color: #fff;
+        font-weight: 100;
+        margin: 4px;
+        font-size: 15px;
+    }
+
+    .bottom_panel {
+        width: 100%;
+        height: 100%;
+        background-color: #fff;
+        overflow: hidden;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    
+}
